@@ -12,7 +12,7 @@ const Cart = function() {
 };
 
 Cart.prototype.getTotalPrice = function() {
-  return console.log(self['totalPrice']);
+  return console.log(this['totalPrice']);
 };
 
 Cart.prototype.calculateGoodsPrice = function() {
